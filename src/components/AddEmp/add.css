@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    background-color: rgb(56, 58, 57);
+    border-radius: 30px;
+    padding: 4rem;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3rem;
+    font-size: 30px;
+    font-weight: bold;   
+
+    color: white;
+}
+
+Button{
+   display: flex;
+   float: right;
+   width: 100px;
+}
+
+label{
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+Form{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+@media screen and (max-width: 770px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .forms{
+        width: 100%;
+        
+    }
+
+    FORM{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonAdd{
+        width: 100%;
+    }
+  }
+
+p{
+    color: rgb(117, 0, 0);
+  }

@@ -1,0 +1,9 @@
+.CardData{
+    margin-top: 30px;
+}
+
+.card-body p{
+    color: rgb(22, 22, 22);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}

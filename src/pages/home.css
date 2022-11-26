@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(91, 89, 87);
+}
+
+h1 {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.AddButton {
+    width: 25%;
+}
+
+.datas {    
+    display: grid;
+    grid-template-columns: 25rem 25rem 25rem;
+    grid-gap: auto;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .mainDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .AddButton {
+        width: 70%;
+    }
+}
